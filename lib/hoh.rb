@@ -38,7 +38,7 @@ new_hash = {
 
 PORTION_2 = {
   :label=>"Order"
-  :sub_category=>{    
+  :sub_category=>{
   }
 },
 
