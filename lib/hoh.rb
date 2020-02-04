@@ -32,30 +32,15 @@
 
 def naming_system
 
-new_hash = {
-  PORTION_1 = {
-  },
+hoh = {
 
-PORTION_2 = {
-  :label=>"Order"
-  :sub_category=>{
+PORTION_1=>{
   }
-},
+}
 
-PORTION_3 = {
-:label=>"Family",
-  :sub_category=>{
-  :label=>"Genus"
-}
-},
 
-PORTION_4 = {
-:label=>"Species",
-  :sub_category=> nil
-}
-}
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
-  return new_hash
+  
 end
