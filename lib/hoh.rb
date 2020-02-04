@@ -44,11 +44,11 @@ def naming_system
            sub_category: {
              label: "Family",
              sub_category:{
-               label: "Genus"
+               label: "Genus",
                sub_category:{
-                 label: "Species"
+                 label: "Species",
                  sub_category:nil
-                 
+
                }
              }
            }
